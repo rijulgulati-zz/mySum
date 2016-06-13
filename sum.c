@@ -16,6 +16,6 @@ int main(void)
 
 void sum(int *a, int *b, int *c, int *res)
 {
-	*res = *a + *b;
+	*res = *a + *b + *c;
 	printf("\nSum = %d", *res);
 }
